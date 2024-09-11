@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho 3</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div style="text-align: center;">
+        <h1>Bloco 3</h1>
+    </div>
+    
+    <br><br>
+
+    <div class="container">
+        <div id="Sala4" class="room myDiv1 ocupado" onclick="changeState('Sala4')">
+            <h2>Sala 4</h2>
+            <p>ocupado</p>
+        </div>
+        <div id="Laboratorio2" class="room myDiv2 manutenção" onclick="changeState('Laboratorio2')">
+            <h2>Laboratorio 2</h2>
+            <p>manutenção</p>
+        </div>
+        <div id="Redes1" class="room myDiv3 vazio" onclick="changeState('Redes1')">
+            <h2>Redes 1</h2>
+            <p>vazio</p>
+        </div>
+        <div id="Redes2" class="room myDiv4 ocupado" onclick="changeState('Redes2')">
+            <h2>Redes 2</h2>
+            <p>ocupado</p>
+        </div>
+        <div id="Laboratorio1" class="room myDiv5 vazio" onclick="changeState('Laboratorio1')">
+            <h2>Laboratorio 1</h2>
+            <p>vazio</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

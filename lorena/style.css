@@ -1,0 +1,25 @@
+.room {
+    border: 1px outset black;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    width: 150px;
+}
+
+.ocupado {
+    background-color: red;
+}
+
+.manutenção {
+    background-color: orange;
+}
+
+.vazio {
+    background-color: green;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
